@@ -7,6 +7,58 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Getting Started
+
+To get the application up and running, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/inventry_management.git
+   cd inventry_management
+   ```
+
+2. **Install composer dependencies:**
+   ```bash
+   composer install
+   ```
+
+3. **Install npm dependencies:**
+   ```bash
+   npm install
+   ```
+
+4. **Create a copy of the `.env` file:**
+   ```bash
+   cp .env.example .env
+   ```
+   *Update the `.env` file with your database credentials.*
+
+5. **Generate an application key:**
+   ```bash
+   php artisan key:generate
+   ```
+
+6. **Run database migrations:**
+   ```bash
+   php artisan migrate
+   ```
+
+7. **Run database seeders:**
+   ```bash
+   php artisan db:seed
+   ```
+
+8. **Run the development servers:**
+   ```bash
+   php artisan serve
+   ```
+   In a separate terminal, run:
+   ```bash
+   npm run dev
+   ```
+
+The application will be available at `http://localhost:8000`.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:

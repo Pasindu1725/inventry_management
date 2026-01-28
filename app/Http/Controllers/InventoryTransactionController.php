@@ -9,7 +9,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
-class InventoryTransactionController extends Controller
+class 
+InventoryTransactionController extends Controller
 {
     /**
      * Add stock to an item.
